@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sat2farmAPI.Crop_Calendar_API">
+      <class name="sat2farmAPI.ExcelSheet">
         <methods>
-          <include name="Crop_Calendar_API_Test"/>
+          <include name="testHomePageAPI"/>
+          <include name="testCropCalendarAPI"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- sat2farmAPI.Crop_Calendar_API -->
+      </class> <!-- sat2farmAPI.ExcelSheet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
