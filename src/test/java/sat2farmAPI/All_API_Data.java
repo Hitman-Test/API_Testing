@@ -27,7 +27,7 @@ public class All_API_Data {
     public void setUp() {
         RestAssured.baseURI = BASE_URL;
         httpRequest = RestAssured.given();
-      
+      System.out.println( "Test");
     }
     @Test(priority = 0)
     public void testHomePageAPI() {
