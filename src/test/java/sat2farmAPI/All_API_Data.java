@@ -14,15 +14,20 @@ public class All_API_Data {
     private static final String SOWING_DATE = "25";
     private static final String CROP = "Banana";
     private static final String LANG = "en";
-    // Google Apps Script Webhook URL
+    
+    
+    // Google Apps Script Webhook URL --> Web App URl --> this link Getting to the Sheet
     private static final String WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbw7rCcshjPCd1vWuoREzEJn5_HSOgwNEJkOiO-p1_EaOsb1KNeTs82hKuhtB4OdMJ-v/exec";
+    
+    // Sheet Link -> add Data -->  https://docs.google.com/spreadsheets/d/1U8wvhCA--urLbk6xJK7enP-VE5duXUFC_MEyddo72jk/edit?gid=0#gid=0
+    
     private RequestSpecification httpRequest;
+ 
     @BeforeClass
     public void setUp() {
         RestAssured.baseURI = BASE_URL;
         httpRequest = RestAssured.given();
-        // प्रत्येक run सुरू होताना एक रिकामी row add करतो
-       // addBlankRow();
+      
     }
     @Test(priority = 0)
     public void testHomePageAPI() {
