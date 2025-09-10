@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-25T19:01:40 IST" name="Default suite" finished-at="2025-08-25T19:02:16 IST" duration-ms="36387">
+  <suite started-at="2025-09-09T14:35:46 IST" name="Default suite" finished-at="2025-09-09T14:36:20 IST" duration-ms="34160">
     <groups>
     </groups>
-    <test started-at="2025-08-25T19:01:40 IST" name="Default test" finished-at="2025-08-25T19:02:16 IST" duration-ms="36387">
+    <test started-at="2025-09-09T14:35:46 IST" name="Default test" finished-at="2025-09-09T14:36:20 IST" duration-ms="34160">
       <class name="sat2farmAPI.All_API_Data">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-08-25T19:01:40 IST" name="setUp" finished-at="2025-08-25T19:01:41 IST" duration-ms="860" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-09-09T14:35:46 IST" name="setUp" finished-at="2025-09-09T14:35:47 IST" duration-ms="1134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageAPI()[pri:0, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-08-25T19:01:41 IST" name="testHomePageAPI" finished-at="2025-08-25T19:02:05 IST" duration-ms="24593" status="PASS">
+        <test-method signature="testHomePageAPI()[pri:0, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-09-09T14:35:47 IST" name="testHomePageAPI" finished-at="2025-09-09T14:36:09 IST" duration-ms="22218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageAPI -->
-        <test-method signature="testCropCalendarAPI()[pri:1, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-08-25T19:02:05 IST" name="testCropCalendarAPI" finished-at="2025-08-25T19:02:16 IST" duration-ms="10904" status="PASS">
+        <test-method signature="testCropCalendarAPI()[pri:1, instance:sat2farmAPI.All_API_Data@2f7298b]" started-at="2025-09-09T14:36:09 IST" name="testCropCalendarAPI" finished-at="2025-09-09T14:36:20 IST" duration-ms="10770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCropCalendarAPI -->
