@@ -53,6 +53,7 @@
 </dependency>
 
 
+
   <dependency>
         <groupId>io.rest-assured</groupId>
         <artifactId>rest-assured</artifactId>
@@ -100,6 +101,14 @@
     <groupId>org.json</groupId>
     <artifactId>json</artifactId>
     <version>20231013</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-csv -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.9.0</version>
 </dependency>
 
 
